@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>HvA Basic Page</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CDN CSS -->
+	<link rel="stylesheet" href="/shared/HTML-Template-Library/HTML-Template-HvA-2019/HvA_Template/hva_templates_2019/../assets/thirdpartylib/bootstrap-3.3.6/css/bootstrap.min.css">
+
+	<!-- Course Styles -->
+	<link rel="stylesheet" href="/shared/HTML-Template-Library/HTML-Template-HvA-2019/HvA_Template/hva_templates_2019/../assets/css/main.min.css">
+</head><body class="content layout-2" role="document"><div class="container-fluid"><main>
+<div class="row">
+<div class="col-sm-12">
+<div class="decoration"></div>
+</div>
+<div class="col-xs-12 col-sm-offset-2 col-sm-8">
+<p></p>
+<table border="1" style="border-collapse: collapse; width: 100.046%;"><colgroup><col style="width: 14.2857%;"><col style="width: 14.2857%;"><col style="width: 14.2857%;"><col style="width: 14.2857%;"><col style="width: 14.2857%;"><col style="width: 14.2857%;"><col style="width: 14.2857%;"></colgroup>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td style="background-color: #fbeeb8;">6</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<h1>Todo Today</h1>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>Voortgang oefeningen (of werkplaats) delen</li>
+<li>Herhaling
+<ul>
+<li><a href="https://colab.research.google.com/drive/15rjNuxTrQsAJEatiGt1ka9xKJkQVfrzc?usp=sharing" title="seaborn" target="_blank" rel="noopener">seaborn</a></li>
+</ul>
+</li>
+<li>Libraries<br>
+<ul>
+<li><a href="https://colab.research.google.com/drive/1NCx71OCF9TptmVa0b_MIZiipESpGp0nv?usp=sharing" target="_blank" title="tuples" rel="noopener">tuples</a></li>
+</ul>
+</li>
+<li>Oefening
+<ul>
+<li><a href="https://colab.research.google.com/drive/1tgZSzj3ACuWAeGasvFojTWe6EKfvaENT?usp=sharing" target="_blank" title="multiple regression" rel="noopener">multiple regression</a></li>
+</ul>
+</li>
+<li>Google Colab Utilities
+<ul>
+<li><a href="https://colab.research.google.com/drive/1330ID-BWOy1XIqzj8kDRfItXVgGy3Lqp?usp=sharing" target="_blank" title="nbconvert" rel="noopener">nbconvert</a></li>
+<li>colab command pane</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<footer>
+<div id="logo" class="logo pull-right"></div>
+</footer></main></div>
+<!-- jQuery local fallback (Bootstrap Dependency) -->
+<p>
+<script src="/shared/HTML-Template-Library/HTML-Template-HvA-2019/HvA_Template/hva_templates_2019/../assets/thirdpartylib/jquery/jquery-1.11.3.min.js"></script>
+</p>
+<!-- Bootstrap CDN JS -->
+<p>
+<script src="/shared/HTML-Template-Library/HTML-Template-HvA-2019/HvA_Template/hva_templates_2019/../assets/thirdpartylib/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+</p>
+<!-- SVG Fallback JS -->
+<p>
+<script src="/shared/HTML-Template-Library/HTML-Template-HvA-2019/HvA_Template/hva_templates_2019/../assets/thirdpartylib/svg4everybody/svg4everybody.min.js"></script>
+</p>
+<!-- Course Scripts -->
+<p>
+<script src="/shared/HTML-Template-Library/HTML-Template-HvA-2019/HvA_Template/hva_templates_2019/../assets/js/main.min.js"></script>
+<script>
+		var lang = window.top.document.documentElement.lang;
+
+		if (lang.indexOf('nl') > -1) {
+			$("#logo").addClass("dutch");
+		}
+	</script></p></body></html>
